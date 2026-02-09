@@ -5,8 +5,8 @@
 这是一个实用的 AI Skill，用于**通过 Elsevier/Scopus 检索论文**，并根据 DOI/标题**自动下载全文**，流程如下：
 
 1. 先用 Scopus 获取结构化元数据（DOI、标题、年份、来源、被引次数）。
-2. 优先走 Unpaywall（合法 OA）下载。
-3. OA 不可用时，可选使用 Sci-Hub CLI 作为 fallback。
+2. 优先走 Unpaywall 下载。
+3. Unpaywall 不可用时，可选使用 Sci-Hub CLI 作为 fallback。
 
 > 适用于 AI 对话场景（如“下载一批”“下载最新论文”）以及自动化 Agent 流程。
 
