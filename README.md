@@ -5,8 +5,8 @@
 A practical AI skill for **searching papers from Elsevier/Scopus** and then **downloading full text by DOI/title** with this strategy:
 
 1. Use Scopus to get clean metadata (DOI, title, year, source, cited count).
-2. Try legal OA download via Unpaywall first.
-3. Optionally use Sci-Hub CLI as a fallback when OA is unavailable.
+2. Try download via Unpaywall first.
+3. Optionally use Sci-Hub CLI as a fallback when Unpaywall is unavailable.
 
 > Designed for conversational AI use ("download a batch", "download latest papers") and automated agent workflows.
 
