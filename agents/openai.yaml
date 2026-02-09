@@ -1,0 +1,4 @@
+interface:
+  display_name: "sci papers downloder"
+  short_description: "Search/download papers with quantity + latest intent"
+  default_prompt: "Search Scopus, map quantity/freshness intent (few/batch/max/latest), then download via Unpaywall with fallback."
